@@ -1,0 +1,12 @@
+*<form class="">
+  <input type="number" value="" placeholder="tIEMPO" ng-model="vm.TI">
+  <input type="text" value="" placeholder="Tipo de Dia" ng-model="vm.DI">
+  <input type="text" value="" placeholder="Turno" ng-model="vm.TU">
+
+  <button type="button" ng-click="vm.calcularPagoLlamada()">llamada</button>
+
+
+</form>
+<h2> valor a PAGO :{{vm.PAG}}</h2>
+<h2> valor a IMPUESTO :{{vm.IM}}</h2>
+<h2> valor TOTAL a pagar por llamada:{{vm.TOT}}</h2>

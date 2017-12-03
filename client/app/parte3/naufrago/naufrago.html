@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <h1>El naufrago satisfecho</h1>
+    <div class="col-md-6">
+      <form class="">
+        <input type="text" value="" placeholder="Tipos de Hamburguesas" ng-model="vm.TI">
+        <input type="number" value="" placeholder="Numero de hamburguesas" ng-model="vm.N">
+        <input type="text" value="" placeholder="Tipo de pago" ng-model="vm.TP">
+        <button type="button" ng-click="vm.totalPagar()">Calcular</button>
+      </form>
+      <h2> Precio hamburguesa: {{vm.PA}}</h2>
+      <h2> Cargo uso tarjeta: {{vm.CA}}</h2>
+      <h2> Total sin cargo: {{vm.TO}}</h2>
+      <h2> Total con cargo: {{vm.TOT}}</h2>
+    </div>
+    </div>
+  </div>

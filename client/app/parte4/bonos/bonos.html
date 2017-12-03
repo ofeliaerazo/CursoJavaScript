@@ -1,0 +1,27 @@
+<div>This is the bonos view.</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form class="">
+        <label for="">antiguedad</label>
+        <input type="number"ng-model="vm.antiguedad">
+        <label for="">Sueldo</label>
+        <input type="number" value="" placeholder="Sueldo" ng-model="vm.sueldo">
+
+        <button type="button" ng-click="vm.calcularBonos()">Calcular</button>
+
+      </form>
+
+      <p>Bono antiguedad: {{vm.bonoA}}</p>
+      <p>Bono Sueldo: {{vm.bonoS}}</p>
+      <p>Su Salario es de  : {{vm.salario}}</p>
+
+
+
+    </div>
+
+  </div>
+
+</div>

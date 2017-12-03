@@ -1,0 +1,19 @@
+<div>This is the cometa view.</div>
+<div class="container">
+  <div class="row">
+    <h1>El cometa</h1>
+    <div class="col-md-6">
+      <form class="form group">
+        <label for="">clave del articulo<input type="number" value="" placeholder="NumeroClave" ng-model="vm.C"></label>
+          <label for="">Costo materia Prima<input type="number" value="" placeholder="CostomateriaPrima" ng-model="vm.MP"></label>
+        <button type="button" ng-click="vm.precioVenta()">Calcular</button>
+      </form>
+      <h5> COSTO fabricacion: {{vm.GF}}</h5>
+      <h5> PRECIO mqno de obra: {{vm.MO}}</h5>
+      <h5> COSTO DE PRODUCCION: {{vm.CP}}</h5>
+      <h5> PRECIO VEEENTA: {{vm.PV}}</h5>
+    </div>
+
+  </div>
+
+</div>

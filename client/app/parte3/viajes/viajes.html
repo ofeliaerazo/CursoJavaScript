@@ -1,0 +1,14 @@
+<div>This is the viajes view.</div>
+
+<form class="">
+  <input type="text" value="" placeholder="Tipos de Autobuses" ng-model="vm.TI">
+  <input type="number" value="" placeholder="Kilometros por recorrer" ng-model="vm.KM">
+  <input type="number" value="" placeholder="Numero de personas" ng-model="vm.NPR">
+
+
+  <button type="button" ng-click="vm.costoViaje()">Calcular</button>
+
+</form>
+<h2> El costo por kilometro es: {{vm.CK}}</h2>
+<h2> El costopersona es: {{vm.CP}}</h2>
+<h2> El costo de viaje es: {{vm.TOTAL}}</h2>
