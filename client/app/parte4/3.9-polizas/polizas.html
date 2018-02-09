@@ -1,0 +1,40 @@
+<h2>Polizas</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form class="from-group">
+
+        <label for="">polizas</label>
+        <input type="text" value="" placeholder="poliza" ng-model="vm.poliza">
+
+        <label for="">edad</label>
+        <input type="number" value="" placeholder="edad" ng-model="vm.edad">
+   
+   		 <label for="">Tiene habito de beber alcohol</label>
+        <input type="text" value="" placeholder="true/false" ng-model="vm.alcoholico">
+
+        <label for="">Utiliza lentes</label>
+        <input type="text" value="" placeholder="true/false" ng-model="vm.lentes">
+
+        <label for="">Padece enfermedad</label>
+        <input type="text" value="" placeholder="true/false" ng-model="vm.enfermedad">
+
+        
+        <button type="button" ng-click="vm.costoPoliza()">Calcular</button>
+
+      </form>
+      <p>poliza:{{vm.poliza}}</p>
+      <p>Recargos:{{vm.recargo}}</p>
+      <p>Edad:{{vm.edad}}</p>
+      <p>Recargo Edad:{{vm.recargoEdad}}</p>
+
+      <p>Valor total poliza:{{vm.pagoPoliza}}</p>
+      
+
+
+
+    </div>
+
+  </div>
+
+</div>

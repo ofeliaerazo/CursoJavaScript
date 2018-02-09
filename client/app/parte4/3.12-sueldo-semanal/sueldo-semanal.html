@@ -1,0 +1,36 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <form class="form-group">
+      	<div>SUELDO SEMANAL.</div>
+
+      	<div class="form-group">
+
+      		<label for="">Horas trabajadas</label>
+        	<input type="number" value="" placeholder="" ng-model="vm.horas">
+
+      	</div> 
+      	<div class="form-group">
+
+      		<label for="">Valor hora</label>
+        	<input type="number" value="" placeholder="" ng-model="vm.precio">
+
+      	</div>     
+        <div class="form-group">
+           <button type="button" ng-click="vm.pagoSemanal()">Calcular</button>
+        </div>
+      </form>
+       	<p>Cantidad de horas:{{vm.horas}}</p>
+
+       	<p>{{vm.mensaje}}</p>
+
+      	<p>SUELDO SEMANAL:{{vm.pago}}</p>
+      
+    </div>
+
+  </div>
+
+</div>

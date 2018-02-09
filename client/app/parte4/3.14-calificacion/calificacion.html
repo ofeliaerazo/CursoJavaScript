@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="row">
+		<div class="">
+
+			<form>
+				<div>Obtenga su nota final!!</div>
+
+				<div>
+					<label for="">Calificación</label>
+					<input type="number" ng-model="vm.calificacion">
+				</div>
+
+				<div>
+					<button type="button" ng-click="vm.calificacionProporcionada()"> calcular</button>
+				</div>
+
+			</form>
+				<p>Nota Definitva: {{vm.nota}}</p>
+		</div>
+	</div>
+</div>

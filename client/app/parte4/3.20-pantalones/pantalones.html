@@ -1,0 +1,27 @@
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<form>
+				<h2>Precio final de sus pantalones</h2>
+
+				<div>
+					<label for="">Modelo de pantalon</label>
+					<input type="number" ng-model="vm.modelo">
+				</div>
+
+				<div>
+					<label for="">Talla</label>
+					<input type="number" ng-model="vm.talla">
+				</div>
+
+				<div>
+					<button type="button" ng-click="vm.precioFinal()"> calcular</button>
+				</div>
+
+			</form>
+				<p>PRECIO FINAL: {{vm.precioF}}</p>
+		</div>
+	</div>
+</div>

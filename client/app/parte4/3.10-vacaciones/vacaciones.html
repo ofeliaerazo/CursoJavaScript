@@ -1,0 +1,33 @@
+<h2>Vacaciones</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <form class="form-group">
+
+      	<div class="form-group">
+
+      		<label for="">Lugar</label>
+        	<input type="text" value="" placeholder="Mexico/P.V./Acalpuco/Cancun" ng-model="vm.sitio">
+
+      	</div>
+
+      	<div class="form-group">
+      		<label for="">distancia</label>
+        	<input type="text" value="" placeholder="ida/idaVuelta" ng-model="vm.distancia">
+       	</div>
+      
+        <div class="form-group">
+           <button type="button" ng-click="vm.valorPasaje()">Calcular</button>
+        </div>
+      </form>
+       <p>Lugar:{{vm.kilometros}}</p>
+      <p>distancia:{{vm.pasaje}}</p>
+      <p>valor pasaje:{{vm.total}}</p>
+      
+    </div>
+
+  </div>
+
+</div>
